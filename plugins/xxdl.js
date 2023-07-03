@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import fg from 'api-dylux';
 
-const allowedHosts = ['xnxx.com'];
+const allowedHosts = ['xnxx3.com'];
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let chat = global.db.data.chats[m.chat];
